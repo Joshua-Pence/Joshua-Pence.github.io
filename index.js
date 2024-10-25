@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e) {
         .then(async (response) => {
             let json = await response.json();
             if (response.status == 200) {
-                result.innerHTML = "Message Sent!";
+                result.innerHTML = "Sent!";
             } else {
                 console.log(response);
                 result.innerHTML = json.message;
@@ -36,3 +36,12 @@ form.addEventListener('submit', function(e) {
             }, 3000);
         });
 });
+
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex'
+}
+function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none'
+}
