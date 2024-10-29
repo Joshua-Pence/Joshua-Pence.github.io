@@ -6,7 +6,6 @@
     <link rel="StyleSheet" type="text/css" href="main-style\style.css">
     <script type="text/javascript" src="index.js" defer></script>
     <script type="text/javascript" src="theme.js" defer></script>
-    <script type="text/javascript" src="dino.js" defer></script>
     <title>Joshua-Pence-Portfolio</title>
 </head>
 
@@ -23,10 +22,10 @@
            </ul>
            <ul class="sidebar">
              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" width="25px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#projects">Projects</a></li>
-             <li><a href="#networks">Networks</a></li>
-             <li><a href="#contact">Contact</a></li>
+             <li onclick=hideSidebar()><a href="#">About</a></li>
+             <li onclick=hideSidebar()><a href="#projects">Projects</a></li>
+             <li onclick=hideSidebar()><a href="#networks">Networks</a></li>
+             <li onclick=hideSidebar()><a href="#contact">Contact</a></li>
             </ul>
         </div>
           <div id="darkmode">
@@ -40,7 +39,7 @@
     <header id="header">
        
         <h1>Hi, my name is <bold>Joshua Pence</bold></h1>
-        <h2>Front End Engineer</h2>
+        <h2>Front-End Engineer</h2>
         
         <section id="skills">
 
@@ -76,11 +75,7 @@
 
         </section>
 
-        <section id="dino-game">
-            <h1>DINO RUN </h1>
-            <canvas id="board"></canvas>
-            <button class="restart-btn"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" width="25px" fill="black"><path d="M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-110h80v280H520v-80h168q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q77 0 139-44t87-116h84q-28 106-114 173t-196 67Z"/></svg></button>
-        </section>
+      
   
     </header>
 
