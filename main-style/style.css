@@ -272,6 +272,42 @@ svg.moon {
     padding-right: 60px;
   }
 }
+@media screen and (max-width: 960px) and (min-width: 875px) {
+  #skills {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (max-width: 875px) and (min-width: 775px) {
+  #skills {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 775px) and (min-width: 700px) {
+  #skills {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 485px) and (min-width: 435px) {
+  #skills {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (max-width: 435px) and (min-width: 398px) {
+  #skills {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media screen and (max-width: 398px) and (min-width: 376px) {
+  #skills {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media screen and (max-width: 485px) and (min-width: 365px) {
   header h1 {
     padding-left: 60px;
